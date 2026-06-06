@@ -60,9 +60,9 @@ export default function Footer() {
               SIU OFFICES, 4-6 GREATOREX STREET, LONDON, UNITED KINGDOM E1 5NF
             </span>
             <span className="block mt-1 text-white/90">
-              Phone: <a href="tel:+447828760930" className="text-[#ccc] hover:text-orange-400 transition">+44 7828 760930</a>
+              Phone: <a href="tel:+447555979712" className="text-[#ccc] hover:text-orange-400 transition">+44 7555 979712</a>
               <span className="mx-2">|</span>
-              <a href="https://wa.me/447828760930" target="_blank" rel="noreferrer" className="text-[#ccc] hover:text-green-400 transition">
+              <a href="https://wa.me/447555979712" target="_blank" rel="noreferrer" className="text-[#ccc] hover:text-green-400 transition">
                 WhatsApp Chat
               </a>
             </span>

@@ -149,7 +149,7 @@ export default function VinChecker() {
                 onClick={() => setIsFormOpen(true)}
                 className="w-full mt-4 bg-[#D97706] hover:bg-[#B45309] text-white font-bold py-3"
               >
-                Get Free Report
+                Get Report
               </Button>
 
               <p className="text-xs text-gray-500 mt-3 text-center">

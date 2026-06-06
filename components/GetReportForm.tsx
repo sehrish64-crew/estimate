@@ -57,6 +57,18 @@ export default function GetReportForm({ isOpen, onClose, preselectedPackage, pre
   const [error, setError] = useState('')
   const [isSubmitting, setIsSubmitting] = useState(false)
 
+  // Prefill form with data from banner when form opens
+  useEffect(() => {
+    if (isOpen && prefilledIdentType && prefilledIdentValue) {
+      setVehicleIdType(prefilledIdentType)
+      if (prefilledIdentType === 'vin') {
+        setVinNumber(prefilledIdentValue)
+      } else {
+        setPlateNumber(prefilledIdentValue)
+      }
+    }
+  }, [isOpen, prefilledIdentType, prefilledIdentValue])
+
   const validateForm = () => {
     setError('')
     if (!vehicleType) return setError('Select vehicle type'), false
